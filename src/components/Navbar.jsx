@@ -1,4 +1,4 @@
-import appleicon from "../assets/images/apple.png";
+import appleicon from "../assets/images/apple.png"
 const Navbar = () => {
   const navlinks = [
     {
@@ -86,9 +86,9 @@ const Navbar = () => {
       </div>
       <div className="flex justify-between justify-center hidden  bg-gray-50 md:flex p-4">
         <div>
-          <img src="./src/assets/apple.png" alt="apple_logo" className="w-6" />
+          <img src={appleicon} alt="apple_logo" className="w-6" />
         </div>
-        <ul className="flex justify-center items-center space-x-5 md:space-x-10">
+        <ul className="flex justify-center items-center space-x-5 lg:space-x-3 md:space-x-10">
           {navlinks.map((links, index) => (
             <li key={index}>{links.name}</li>
           ))}
