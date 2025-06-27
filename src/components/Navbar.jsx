@@ -1,3 +1,4 @@
+import appleicon from "../assets/images/apple.png";
 const Navbar = () => {
   const navlinks = [
     {
@@ -36,7 +37,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-10">
       <div className=" bg-gray-100 flex justify-between p-4 sticky top-0 z-10 md:hidden">
         <div>
-          <img src="src/assets/apple.png" alt="apple_logo" className="w-8" />
+          <img src={appleicon} alt="apple_logo" className="w-8" />
         </div>
         <div className="flex space-x-5">
           <svg
